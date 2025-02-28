@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Gradiente Linear</title>
+    <style>
+        /* Aplicando o gradiente linear de 90° */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(90deg, #000000, #737373);
+            font-family: Arial, sans-serif;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Bem-vindo ao Meu Site</h1>
+        <p>
+            Este é um exemplo de site com um fundo de gradiente linear de 90°, utilizando as cores preto (#000000) e cinza (#737373).
+        </p>
+    </div>
+</body>
+</html>
